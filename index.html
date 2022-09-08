@@ -157,14 +157,15 @@
     </section>
 
     <!-- Question Accordion -->
-    <section id="questions">
+    <section id="questions" class="container-sm text-center mt-5">
       <div>
         <h2>Frequently Asked Questions</h2>
-        <div id="questions">
+        <div class="accordion" id="questions">
           <!-- Item 1 -->
-          <div>
-            <h2>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
               <button
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-one"
@@ -172,7 +173,11 @@
                 Where exactly are you located?
               </button>
             </h2>
-            <div id="question-one" data-bs-parent="#questions">
+            <div
+              id="question-one"
+              data-bs-parent="#questions"
+              class="accordion-collapse collapse"
+            >
               <div>
                 Fall asleep on the washing machine hide when guests come over
                 stare at guinea pigs yet vommit food and eat it again eat and
@@ -182,9 +187,10 @@
             </div>
           </div>
           <!-- Item 2 -->
-          <div>
-            <h2>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
               <button
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
@@ -192,7 +198,11 @@
                 What are the activities?
               </button>
             </h2>
-            <div id="question-two" data-bs-parent="#questions">
+            <div
+              id="question-two"
+              data-bs-parent="#questions"
+              class="accordion-collapse collapse"
+            >
               <div>
                 Scream at teh bath. My left donut is missing, as is my right the
                 dog smells bad and loves cheeseburgers, refuse to drink water
@@ -203,9 +213,10 @@
             </div>
           </div>
           <!-- Item 3 -->
-          <div>
-            <h2>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
               <button
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-three"
@@ -213,7 +224,11 @@
                 What do I need to Know?
               </button>
             </h2>
-            <div id="question-three" data-bs-parent="#questions">
+            <div
+              id="question-three"
+              data-bs-parent="#questions"
+              class="accordion-collapse collapse"
+            >
               <div>
                 Be fabulous for the rest of the day – checked so poop on
                 grasses, but refuse to leave cardboard box and small kitty warm
@@ -226,78 +241,78 @@
       </div>
     </section>
 
-    <section id="instructors">
-      <div>
-        <h2>Our Instructors</h2>
-        <p>
+    <section id="instructors" class="bg-warning">
+      <div class="container-sm p-5 text-center">
+        <h2 class="text-light">Our Instructors</h2>
+        <p class="m-3 pt-2 text-light">
           Our instructors all have 5+ years pooping on grasses while licking
           paws
         </p>
-        <div>
-          <div>
-            <div>
+        <div class="card-group flex-column">
+          <div class="card mt-5">
+            <div class="card-body m-3">
               <div>
                 <img src="img/kitty-1.png" alt="" />
-                <h3>Tuna</h3>
-                <p>
+                <h3 class="card-title m-3">Tuna</h3>
+                <p class="card-text p-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
                 </p>
-                <a href="#"><i>twitter icon goes here</i></a>
+                <!-- <a href="#"><i>twitter icon goes here</i></a>
                 <a href="#"><i>facebook icon goes here</i></a>
                 <a href="#"><i>linkedin icon goes here</i></a>
-                <a href="#"><i>instagram icon goes here</i></a>
+                <a href="#"><i>instagram icon goes here</i></a> -->
               </div>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div class="card mt-3" 　>
+            <div class="card-body">
               <div>
                 <img src="img/kitty-2.png" alt="" />
-                <h3>Koshka</h3>
-                <p>
+                <h3 class="card-title m-3">Koshka</h3>
+                <p class="card-text p-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
                 </p>
-                <a href="#"><i>twitter icon goes here</i></a>
+                <!-- <a href="#"><i>twitter icon goes here</i></a>
                 <a href="#"><i>facebook icon goes here</i></a>
                 <a href="#"><i>linkedin icon goes here</i></a>
-                <a href="#"><i>instagram icon goes here</i></a>
+                <a href="#"><i>instagram icon goes here</i></a> -->
               </div>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div class="card mt-3">
+            <div class="card-body">
               <div>
                 <img src="img/kitty-3.png" alt="" />
-                <h3>Meo</h3>
-                <p>
+                <h3 class="card-title m-3">Meo</h3>
+                <p class="card-text p-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
                 </p>
-                <a href="#"><i>twitter icon goes here</i></a>
+                <!-- <a href="#"><i>twitter icon goes here</i></a>
                 <a href="#"><i>facebook icon goes here</i></a>
                 <a href="#"><i>linkedin icon goes here</i></a>
-                <a href="#"><i>instagram icon goes here</i></a>
+                <a href="#"><i>instagram icon goes here</i></a> -->
               </div>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div class="card mt-3" 　>
+            <div class="card-body">
               <div>
                 <img src="img/kitty-4.png" alt="" />
-                <h3>Ziggy</h3>
-                <p>
+                <h3 class="card-title m-3">Ziggy</h3>
+                <p class="card-text p-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
                 </p>
-                <a href="#"><i>twitter icon goes here</i></a>
+                <!-- <a href="#"><i>twitter icon goes here</i></a>
                 <a href="#"><i>facebook icon goes here</i></a>
                 <a href="#"><i>linkedin icon goes here</i></a>
-                <a href="#"><i>instagram icon goes here</i></a>
+                <a href="#"><i>instagram icon goes here</i></a> -->
               </div>
             </div>
           </div>
@@ -307,25 +322,31 @@
 
     <!-- Contact & Map -->
     <section>
-      <div>
-        <div>
+      <div class="py-5">
+        <div class="container-sm">
           <div>
-            <h2>Contact Info</h2>
-            <ul>
-              <li><span>Main Location:</span> Danboru</li>
-              <li><span>Enrollment Phone:</span> (555) 555-5555</li>
-              <li><span>Student Phone:</span> (333) 333-3333</li>
-              <li>
-                <span>Enrollment Email:</span>
+            <h2 class="text-center mt-3">Contact Info</h2>
+            <ul class="list-group" style="list-style: none">
+              <li class="border-bottom" style="padding: 10px">
+                <span class="fw-bold" 　>Main Location:</span> Danboru
+              </li>
+              <li class="border-bottom" style="padding: 10px">
+                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+              </li>
+              <li class="border-bottom" style="padding: 10px">
+                <span class="fw-bold">Student Phone:</span> (333) 333-3333
+              </li>
+              <li class="border-bottom" style="padding: 10px">
+                <span class="fw-bold">Enrollment Email:</span>
                 purr@rubmybelly.gg
               </li>
-              <li>
-                <span>Student Email:</span>
+              <li class="border-bottom" style="padding: 10px">
+                <span class="fw-bold">Student Email:</span>
                 i.dare.you2@rubmybelly.gg
               </li>
             </ul>
           </div>
-          <div>
+          <div class="mt-5">
             <div id="map"></div>
           </div>
         </div>
@@ -333,8 +354,8 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-      <div>
+    <footer class="bg-dark">
+      <div class="p-5 text-light text-center">
         <p>Copyright &copy; 2021 Catcademy</p>
 
         <a href="#">
