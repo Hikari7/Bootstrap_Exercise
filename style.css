@@ -1,8 +1,8 @@
-body::before {
+/* body::before {
   display: block;
-  content: '';
+  content: "";
   height: 60px;
-}
+} */
 
 #map {
   width: 100%;
@@ -14,5 +14,6 @@ body::before {
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
+    content: "MD";
   }
 }
